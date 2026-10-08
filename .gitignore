@@ -1,0 +1,105 @@
+# ================================
+# Flutter / Dart
+# ================================
+
+*.class
+*.log
+*.pyc
+*.swp
+
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Flutter build artifacts
+app.*.symbols
+app.*.map.json
+
+# Android build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+
+# ================================
+# IDE / OS
+# ================================
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+.vscode/
+.DS_Store
+.history/
+.atom/
+.build/
+.buildlog/
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+
+# ================================
+# Python
+# ================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+venv/
+.venv/
+
+
+# ================================
+# Environment / Secrets
+# ================================
+
+.env
+.env.*
+!.env.example
+
+
+# ================================
+# Local Databases / User Data
+# ================================
+
+*.db
+uploads/
+
+
+# ================================
+# AI Model Files
+# ================================
+
+backend/qwen_cyber_lora.zip
+backend/qwen_cyber_lora/adapter_model.safetensors
+backend/qwen_cyber_lora/tokenizer.json
+backend/__pycache__/
+
+
+# ================================
+# Local / Temporary Files
+# ================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+
+
+# AI training outputs
+ai_training/*.bin
+ai_training/*.pt
+ai_training/*.pth
+ai_training/*.safetensors
+ai_training/*.jsonl
